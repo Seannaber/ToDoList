@@ -1,0 +1,66 @@
+body {
+	height: 100%;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fefcea+0,f1da36+100;Gold+3D */
+	background: rgb(254,252,234); /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover,  rgba(254,252,234,1) 0%, rgba(241,218,54,1) 100%); /* FF3.6-15 */
+	background: -webkit-radial-gradient(center, ellipse cover,  rgba(254,252,234,1) 0%,rgba(241,218,54,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center,  rgba(254,252,234,1) 0%,rgba(241,218,54,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefcea', endColorstr='#f1da36',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+h1 {
+	font-family: 'Bowlby One SC', cursive;
+	color: white;
+	font-size: 8em;
+	text-shadow: 
+		/*5px 5px 0 #000,*/
+		-2px -2px 0 #000,  
+    	2px -2px 0 #000,
+   		-2px  2px 0 #000,
+    	2px  2px 0 #000;
+}
+
+ul {
+  width:25%;
+  margin: 0 auto;
+  list-style: none;
+  padding-left: 0;
+  margin-top: 50px;
+}
+
+li {
+	text-align: left;
+	font-size: 1.5em;
+	margin-bottom: 10px;
+}
+
+.wrapper {
+  display: block;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#inputbox {
+	margin-top: 50px;
+	font-size: 1.5em;
+	border-width: 0px;
+	border-bottom: 2px solid black;
+	padding: 15px;
+	background: none;
+	text-align: center;
+}
+
+#additem {
+	text-align: center;
+	margin: 0 auto;
+}
+
+#inputbox:focus {
+	outline-width: 0px;
+}
+
+.btn {
+	margin-right: 10px;
+	text-align: center;
+}
