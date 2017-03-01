@@ -5,17 +5,21 @@
 */
 $("form input").click(function(event) {
   event.preventDefault();
+  addItem();
 });
 
 $("form input").keydown(function(event) {
   if (event.keyCode == 13) {
     event.preventDefault();
+    addItem();
   }
 });
 
 var currentList = [];
 
-$("#additem").click(function() {
+$("#additem").click(addItem);
+
+var addItem = function() {
   var newItem = $("#inputbox").val();
   if (newItem.length > 0) {
     $("#inputbox").val("");
@@ -26,7 +30,7 @@ $("#additem").click(function() {
       $("ul").append("<li class='item' id=" + i + "><button class=\"btn btn-danger btn-lrg\" onclick=\"deleteItem(" + i + ")\" type=button><span class=\"glyphicon glyphicon-trash\"></span> Delete</button> " + currentList[i] + "</li>");
     };
   };
-});
+}
 
 /*
 When an X button is pressed:
