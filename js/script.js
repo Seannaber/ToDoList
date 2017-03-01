@@ -5,7 +5,6 @@
 */
 $("form input").click(function(event) {
   event.preventDefault();
-  addItem();
 });
 
 $("form input").keydown(function(event) {

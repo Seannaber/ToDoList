@@ -69,3 +69,18 @@ footer {
 	margin-top: 150px;
 	font-size: .75em;
 }
+
+.btn-success {
+	background-color: #3971cc;
+	border: none;
+}
+
+.btn-success:focus {
+	background-color: #3971cc;
+	border: none;
+}
+
+.btn-success:hover {
+	background-color: #2b569b;
+	border: none;
+}
