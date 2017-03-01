@@ -40,7 +40,7 @@ var deleteItem = function(i) {
   $("ul").empty();
   $("#subhead").text("You have " + currentList.length + " things to do. GET CRACKIN'!");
   for (i=0; i<currentList.length; i++) {
-    $("ul").append("<li class='item' id=" + i + "><button class=\"btn btn-danger btn-lg\" onclick=\"deleteItem(" + i + ")\" type=button><span class=\"glyphicon glyphicon-trash\"></span> Delete</button> " + currentList[i] + "</li>");
+    $("ul").append("<li class='item' id=" + i + "><button class=\"btn btn-danger btn-lrg\" onclick=\"deleteItem(" + i + ")\" type=button><span class=\"glyphicon glyphicon-trash\"></span> Delete</button> " + currentList[i] + "</li>");
   };
 }
 
